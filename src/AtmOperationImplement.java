@@ -26,7 +26,7 @@ import java.util.Map;
                 }
             }
             else {
-                System.out.println("Please enter the amount in multiple of 500");
+                System.out.println("Please enter the amount in multiple of 500:");
             }
 
         }
