@@ -18,7 +18,7 @@ import java.util.Map;
             if(withdrawAmount%500==0) {
                 if (withdrawAmount <= atm.getBalance()) {
                     ministmt.put(withdrawAmount, " Amount Withdrawn");
-                    System.out.println("Collect the Cash " + withdrawAmount);
+                    System.out.println("Collect the Cash--- " + withdrawAmount);
                     atm.setBalance(atm.getBalance() - withdrawAmount);
                     viewBalance();
                 } else {
