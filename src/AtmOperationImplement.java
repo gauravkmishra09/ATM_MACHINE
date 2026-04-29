@@ -33,10 +33,10 @@ import java.util.Map;
 
         @Override
         public void depositAmount(double depositAmount) {
-            ministmt.put(depositAmount," Amount Deposited");
-            System.out.println(depositAmount+" Deposited Successfully !!");
-            atm.setBalance(atm.getBalance()+depositAmount);
-            viewBalance();
+            ministmt.put(depositAmount," Amount Deposited ");
+            System.out.println(depositAmount+" Deposited Successfully... !!");
+            atm.setBalance(atm.getBalance()+depositAmount>);
+               kkk
 
         }
 
