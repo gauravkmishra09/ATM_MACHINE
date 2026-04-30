@@ -35,7 +35,7 @@ import java.util.Map;
         public void depositAmount(double depositAmount) {
             ministmt.put(depositAmount," Amount Deposited ");
             System.out.println(depositAmount+" Deposited Successfully... !!");
-            atm.setBalance(atm.getBalance()+depositAmount>);
+            atm.setBalance(atm.getBalance()+depositAmount);
 
         }
 
