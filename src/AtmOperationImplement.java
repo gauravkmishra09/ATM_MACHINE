@@ -36,7 +36,6 @@ import java.util.Map;
             ministmt.put(depositAmount," Amount Deposited ");
             System.out.println(depositAmount+" Deposited Successfully... !!");
             atm.setBalance(atm.getBalance()+depositAmount>);
-               kkk
 
         }
 
