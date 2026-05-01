@@ -9,7 +9,7 @@ import java.util.Map;
         Map<Double,String> ministmt=new HashMap<>();
         @Override
         public void viewBalance() {
-            System.out.println("Available Balance is : "+atm.getBalance());
+            System.out.println("Available Balance is: "+atm.getBalance());
 
         }
 
