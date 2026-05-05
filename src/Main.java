@@ -10,7 +10,7 @@ public class Main {
         System.out.println("Welcome to ATM Machine !!!");
         System.out.print("Enter Atm Number : ");
         int atmNumber=in.nextInt();
-        System.out.print("Enter Pin: ");
+        System.out.print("Enter Pin : ");
         int pin=in.nextInt();
         if((atmnumber==atmNumber)&&(atmpin==pin)){
             while(true){
